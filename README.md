@@ -7,6 +7,19 @@ A CLI tool for checking whether the parameters from first string are present in 
 is_in [-options] <string1> <string2>
 ```
 
+## Options
+
+```text
+  -i, --ignorecase    Ignore case (default: false)
+  -d, --delimiter     Parameters delimiter (default: ",")
+  -p, --prepare       Prepare parameters before comparison (default: false): trim spaces and replace wrapping single/double quotes
+  -w, --why           Print comparsison details (default: false)
+  --help              Help
+  --version           Print current version
+```
+
+
+## Shell usage
 ```shell
 is_in ",f,g,b , ,c" "a,b,c"
 # => "false"
@@ -26,22 +39,4 @@ if [ "$ok" = "false" ]; then
    exit
 fi
 ```
-
-
-
-## Options
-
-```text
--d (string)
-      Parameter delimiter (default: ",")
--i	
-      Ignore case (default: false)
--p	
-      Prepare parameters before comparison (trim spaces and replace wrapping single/double quotes) (default: false)
--why
-      Print comparison details
--v
-      Print current version number
-```
-
 
