@@ -10,12 +10,12 @@ is_in [-options] <string1> <string2>
 ## Options
 
 ```text
-  -i, --ignorecase    Ignore case (default: false)
-  -d, --delimiter     Parameters delimiter (default: ",")
-  -p, --prepare       Prepare parameters before comparison (default: false): trim spaces and replace wrapping single/double quotes
-  -w, --why           Print comparsison details (default: false)
-  --help              Help
-  --version           Print current version
+  -i, --ignorecase  Ignore case (default: false)
+  -d, --delimiter   Parameters delimiter (default: ",")
+  -p, --prepare     Prepare parameters before comparison (default: false): trim spaces and replace wrapping single/double quotes
+  -w, --why         Print comparsison details (default: false)
+  --help            Help
+  --version         Print current version
 ```
 
 
